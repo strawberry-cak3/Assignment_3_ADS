@@ -36,15 +36,17 @@ Comparison: On a small array (10 elements), Selection Sort proved to be slightly
 
 Input Size Impact: We see an exponential increase in the runtime of Selection Sort when moving from 100 to 1,000 elements (an increase of almost 30-fold), whilst the runtime of Quick Sort increases much more gradually.
 
-Effectiveness: 
+Effectiveness: Linear Search delivered the fastest results, as its complexity is O(n) and it performs significantly fewer comparison and data movement operations than sorting algorithms. 
+
+Consistency of theory: The results are fully consistent with the theoretical complexity of Big-O. Selection Sort shows quadratic growth, while Quick Sort and Linear Search show higher scalability.
 ## __D. Screenshots__
 
-![Main file]<img width="777" height="615" alt="image" src="https://github.com/user-attachments/assets/a505c210-abff-484e-a19e-25815f93e7b9" />
-![Experiment]<img width="839" height="909" alt="image" src="https://github.com/user-attachments/assets/f791f38f-8e37-4ee3-b58f-4d741af1e1f0" />
-![Sorter part1]<img width="785" height="691" alt="image" src="https://github.com/user-attachments/assets/9150e465-bd7c-4672-a61c-773b8a738f51" />
-![Sorter part2]<img width="848" height="656" alt="image" src="https://github.com/user-attachments/assets/21095544-c7f6-4dea-ae36-73f33eb71e9f" />
-![Searcher]<img width="1056" height="541" alt="image" src="https://github.com/user-attachments/assets/47f34bdc-5aa5-4eec-9bc9-b8c3a5f8f2b0" />
-![Results]<img width="1916" height="1032" alt="image" src="https://github.com/user-attachments/assets/b34c18c2-4c02-4dd1-aa94-87817532305d" />
+![Main file](<img width="777" height="615" alt="image" src="https://github.com/user-attachments/assets/a505c210-abff-484e-a19e-25815f93e7b9" />)
+![Experiment](<img width="839" height="909" alt="image" src="https://github.com/user-attachments/assets/f791f38f-8e37-4ee3-b58f-4d741af1e1f0" />)
+![Sorter part1](<img width="785" height="691" alt="image" src="https://github.com/user-attachments/assets/9150e465-bd7c-4672-a61c-773b8a738f51" />)
+![Sorter part2](<img width="848" height="656" alt="image" src="https://github.com/user-attachments/assets/21095544-c7f6-4dea-ae36-73f33eb71e9f" />)
+![Searcher](<img width="1056" height="541" alt="image" src="https://github.com/user-attachments/assets/47f34bdc-5aa5-4eec-9bc9-b8c3a5f8f2b0" />)
+![Results](<img width="1916" height="1032" alt="image" src="https://github.com/user-attachments/assets/b34c18c2-4c02-4dd1-aa94-87817532305d" />)
 
 
 
