@@ -24,16 +24,27 @@ Purpose: The main goal is to apply Big-O notation in practical scenarios and mea
 3. Linear Search (Searching) How it works: Sequentially checks each element of the list until a match is found or the whole list has been searched.  Time Complexity: O(n).
 
 ## __C. Experimental Results__
+| Размер массива | Selection Sort (ns) | Quick Sort (ns) | Linear Search (ns) |
+| :--- | :--- | :--- | :--- |
+| Small (10) | 3600 | 4500 | 1000 |
+| Medium (100) | 42900 | 17300 | 1100 |
+| Large (1000) | 1259000 | 244400 | 6500 |
 
 ### _Performance Analysis_
 
-Comparison: Analyze which sorting algorithm performed faster and why.  
+Comparison: algorithm that was faster than selected sort is quick sort. That because of O(nlogn) complexity unlike O(n^2) in selection sort
 
-Input Size Impact: Explain how performance changed as you moved from small to large datasets.  
-
-Data Type Impact: Discuss how sorted vs. unsorted data affected the results (especially for Quick Sort).  
+Input Size Impact: Selection sort time was about at ~30 times bigger when I increased amount of elements from 100 to 1000. Basically increased by 10.
+Quick sort increased time from 17300 ns to 244400 ns with 100 and 1000 elements therefore. ~14 times bigger.
 
 ## __D. Screenshots__
 
+![Main file] <img width="777" height="615" alt="image" src="https://github.com/user-attachments/assets/a505c210-abff-484e-a19e-25815f93e7b9" />
+![Experiment] <img width="839" height="909" alt="image" src="https://github.com/user-attachments/assets/f791f38f-8e37-4ee3-b58f-4d741af1e1f0" />
+![Sorter part1] <img width="785" height="691" alt="image" src="https://github.com/user-attachments/assets/9150e465-bd7c-4672-a61c-773b8a738f51" />
+![Sorter part2] <img width="848" height="656" alt="image" src="https://github.com/user-attachments/assets/21095544-c7f6-4dea-ae36-73f33eb71e9f" />
+![Searcher] <img width="1056" height="541" alt="image" src="https://github.com/user-attachments/assets/47f34bdc-5aa5-4eec-9bc9-b8c3a5f8f2b0" />
 
-Theoretical vs Practical: Confirm if your results match the expected Big-O complexity.
+
+
+
